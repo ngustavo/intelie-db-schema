@@ -1,11 +1,15 @@
 {
   "name": "intelie-db-schema",
   "version": "0.1.0",
-  "description": "A function to organize data in a specific schema",
+  "description": "A function to filter data based on a specific schema",
   "repository": "git@github.com:ngustavo/intelie-db-schema.git",
   "author": "Gustavo N. <gustavostnt@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts":{
+    "start": "serve src",
+    "deploy": "gh-pages -t -d src"
+  },
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "serve": "^10.0.2"
